@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15-Feb-2024, 8:43:04 pm
+    Author     : 91944
+*/
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.15),rgba(0,0,0,0.15)),url("hospitalenvi.avif");
+    background-size: cover;
+}
+legend{
+    position: relative;
+    width:50px;
+    height: 170px;   
+    font-weight: bold;
+}
+fieldset{
+    position:relative;
+    width:300px;
+    left:550px;
+    top:150px;
+    backdrop-filter:blur(20px);
+    border-width: 5px;
+    border-color:white;
+}
+h1{
+    top:10px;
+    position: relative; 
+}
+label{
+    bottom:100px;
+    position: relative;  
+}
+input{
+    bottom:100px;
+    position:relative;
+}
+.one{
+    position: absolute;
+    left: 10px;
+    bottom: 80px;
+}
+.login{
+    position: absolute;
+    bottom: 40px;
+    left:50px;
+}
+button{
+    color:black;
+    border-radius: 10px;
+    width:200px;
+    height: 30px;
+    left: 20px;
+}

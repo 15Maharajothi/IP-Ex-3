@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15-Feb-2024, 7:48:35 pm
+    Author     : 91944
+*/
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.navbar{
+    position:relative;
+    background-color: white;
+    height: 90px;
+}
+.sechome{
+    height: 100vh;
+     background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url("hospitals.jpg");
+    background-size: 100%;
+}
+h1{
+    color:#2582a1;
+    text-shadow: 2px  2px 2px grey;
+    position: relative;
+    text-align: center;
+    top:20px;
+}
+img{
+    position:absolute;
+}
+a{
+    color:#2582a1;
+    text-decoration:none; 
+    position:relative;
+    left:1300px;
+    bottom:50px;
+}
+h4{
+   top:0px; 
+   position: relative;
+}
+h4.con{
+    color:white;
+    font-family:Times new roman;
+    position:absolute;
+    top:650px;
+    left:85px;
+}
+table,th,td{  
+    border:2px solid black;
+    background-image: url("service.webp");
+}
+.sectable{
+    position:relative;
+    top:50px;
+    left:40px;
+}
+.tabhead{
+    color: #2582a1 ;
+    text-shadow:2px 2px 2px grey;
+    font-family: times new roman;
+}
+
